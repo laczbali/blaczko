@@ -1,0 +1,1 @@
+Code of [blaczko.com](https://blaczko.com)

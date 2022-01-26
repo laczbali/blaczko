@@ -1,0 +1,72 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(37, 37, 38);
+    color: white;
+}
+
+.main {
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+
+a, a:visited, a:hover, a:active {
+    color: #0099FF;
+}
+
+.content {
+    margin-left: 20px;
+    max-width: 45em;
+}
+
+.content>div {
+    margin-bottom: 20px;
+}
+
+/* image related */
+.img-me-container {
+    text-align: center;
+}
+
+img.me {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+/* about related */
+.about-div {
+    text-align: justify;
+}
+
+/* education related */
+
+.education-course {
+    font-weight: bold;
+}
+
+.education-place {
+    font-style: italic;
+    font-size: 80%;
+}
+
+/* work related */
+
+.work-role {
+    font-weight: bold;
+}
+
+.work-place {
+    font-style: italic;
+    font-size: 80%;
+}
+
+/* contact related */
+
+.contact-link {
+    font-size: 120%;
+}
+
+.contact-link>a {
+    margin-left: 5px;
+}
