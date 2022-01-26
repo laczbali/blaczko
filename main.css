@@ -32,6 +32,9 @@ a, a:visited, a:hover, a:active {
     .main {
         margin-left: 30px;
         margin-right: 30px;
+
+        /* debug */
+        color: red;
     }
 
     /* can take whole width, larger left margin */
