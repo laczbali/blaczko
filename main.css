@@ -51,6 +51,10 @@ a, a:visited, a:hover, a:active {
     .contact-link>a {
         margin-left: 15px;
     }
+
+    .icon-container {
+        width: 40px;
+    }
 }
 
 /* image related */
@@ -92,6 +96,10 @@ img.me {
 }
 
 /* contact related */
+
+.icon-container {
+    width: 20px;
+}
 
 .contact-link {
     font-size: 120%;
