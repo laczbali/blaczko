@@ -26,7 +26,7 @@ a, a:visited, a:hover, a:active {
 
 /* touch-screen only rules */
 
-@media only screen and (hover: none) and (pointer: coarse){
+@media (hover: none) {
 
     /* larger left margin, add right margin */
     .main {
