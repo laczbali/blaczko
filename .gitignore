@@ -1,0 +1,5 @@
+# ignore https setup folder
+/.well-known
+
+# igonre subfolers not part of main site
+git/
