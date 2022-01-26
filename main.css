@@ -46,7 +46,11 @@ a, a:visited, a:hover, a:active {
     .img-me-container {
         margin-left: unset;
     }
-    
+
+    /* leave more space next to the icons at the bottom */
+    .contact-link>a {
+        margin-left: 15px;
+    }
 }
 
 /* image related */
