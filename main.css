@@ -52,8 +52,9 @@ a, a:visited, a:hover, a:active {
         margin-left: 15px;
     }
 
+    /* keep icon container width */
     .icon-container {
-        width: 40px;
+        width: 40px !important;
     }
 }
 
