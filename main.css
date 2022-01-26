@@ -26,7 +26,7 @@ a, a:visited, a:hover, a:active {
 
 /* touch-screen only rules */
 
-@media (max-width:641px) {
+@media (max-width: 900px) {
 
     /* larger left margin, add right margin */
     .main {
