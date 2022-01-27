@@ -1,7 +1,7 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(37, 37, 38);
-    color: white;
+    color: rgb(201, 201, 201);
 }
 
 div.container {
@@ -27,6 +27,10 @@ a, a:visited, a:hover, a:active {
 
 .content>div {
     margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: white;
 }
 
 /* touch-screen only rules */
@@ -79,10 +83,15 @@ img.me {
     text-align: justify;
 }
 
+.about-div b {
+    color: white;
+}
+
 /* education related */
 
 .education-course {
     font-weight: bold;
+    color: white;
 }
 
 .education-place {
@@ -94,6 +103,7 @@ img.me {
 
 .work-role {
     font-weight: bold;
+    color: white;
 }
 
 .work-place {
