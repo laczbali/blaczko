@@ -2,4 +2,4 @@
 /.well-known
 
 # igonre subfolers not part of main site
-git/
+*/
