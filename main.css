@@ -87,26 +87,14 @@ img.me {
     color: white;
 }
 
-/* education related */
+/* career related */
 
-.education-course {
+.career-title {
     font-weight: bold;
     color: white;
 }
 
-.education-place {
-    font-style: italic;
-    font-size: 80%;
-}
-
-/* work related */
-
-.work-role {
-    font-weight: bold;
-    color: white;
-}
-
-.work-place {
+.career-place {
     font-style: italic;
     font-size: 80%;
 }
