@@ -3,3 +3,6 @@
 
 # igonre subfolers not part of main site
 */
+
+# include CV files
+!/cv

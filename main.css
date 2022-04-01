@@ -78,6 +78,19 @@ img.me {
     border-radius: 100px;
 }
 
+/* cv download */
+.pdf-link {
+    margin-left: -33px;
+}
+
+.pdf-link a,
+.pdf-link a:visited,
+.pdf-link a:hover,
+.pdf-link a:active {
+    color: white;
+    text-decoration: none;
+}
+
 /* about related */
 .about-div {
     text-align: justify;
