@@ -112,6 +112,17 @@ img.me {
     font-size: 80%;
 }
 
+.career-place-inline {
+    font-weight: normal;
+    color: rgb(201,201,201);
+}
+
+.career-role {
+    text-align: justify;
+    font-style: italic;
+    font-size: 80%;
+}
+
 /* contact related */
 
 .icon-container {
