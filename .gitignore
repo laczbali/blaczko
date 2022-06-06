@@ -3,6 +3,8 @@
 
 # igonre subfolers not part of main site
 */
+!assets
+!projects
 
 # include CV files
 !/cv
