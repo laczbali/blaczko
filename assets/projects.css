@@ -1,0 +1,49 @@
+.main {
+    min-width: 390px;
+}
+
+.col {
+    float: left;
+}
+
+.menu {
+    color: white;
+    margin-right: 20px;
+    width: calc(30% - 20px);
+}
+
+.menu>div {
+    text-align: end;
+}
+
+.menu-name {
+    font-size: 190%;
+    text-transform: uppercase;
+}
+
+.menu-title {
+    text-transform: uppercase;
+}
+
+a, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+.content>div {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
