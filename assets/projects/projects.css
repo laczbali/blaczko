@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .main {
     min-width: 390px;
 }
@@ -6,12 +10,21 @@
     float: left;
 }
 
+#to-the-top {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}
+
 /* side menu */
 
 .menu {
     color: white;
     margin-right: 20px;
     width: calc(30% - 20px);
+    height: 100%;
+    position: relative;
 }
 
 .menu>div {
@@ -59,6 +72,7 @@ a:hover {
 /* entries */
 
 .content {
+    scroll-behavior: smooth;
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -90,9 +104,29 @@ a:hover {
 (min-resolution: 192dpi),
 (max-width: 900px) {
 
+    #to-the-top {
+        position: fixed;
+        bottom: 20px;
+        right: unset;
+        left: calc(calc(100% - 45em) / 2);
+
+        background: white;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 30px;
+    }
+
+    #to-the-top>a {
+        color: black;
+    }
+
     .menu {
         width: 100%;
         float: unset;
+        height: unset;
+        position: unset;
     }
 
     .menu>div {
@@ -107,5 +141,12 @@ a:hover {
         height: unset;
         width: 100%;
         float: unset;
+    }
+}
+
+@media
+(max-width: 47em) {
+    #to-the-top {
+        left: 8px;
     }
 }
