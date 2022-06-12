@@ -33,6 +33,11 @@ hr {
     margin-bottom: 20px;
 }
 
+.bottom-hr {
+    display: none;
+    margin-bottom: 40px;
+}
+
 a, a:visited, a:hover, a:active {
     color: white;
     text-decoration: none;
@@ -77,4 +82,30 @@ a:hover {
 
 .entry>h2, .entry>div {
     margin-bottom: 10px;
+}
+
+/* touch-screen only rules */
+
+@media
+(min-resolution: 192dpi),
+(max-width: 900px) {
+
+    .menu {
+        width: 100%;
+        float: unset;
+    }
+
+    .menu>div {
+        text-align: start;
+    }
+
+    .bottom-hr {
+        display: block;
+    }
+
+    .content {
+        height: unset;
+        width: 100%;
+        float: unset;
+    }
 }
