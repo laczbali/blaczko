@@ -18,6 +18,7 @@ h2 {
     color: white;
 }
 
+/* -------------------------------------------------- */
 /* touch-screen only rules */
 
 @media (min-resolution: 192dpi),
@@ -51,7 +52,9 @@ h2 {
     }
 }
 
+/* -------------------------------------------------- */
 /* image related */
+
 .img-me-container {
     text-align: center;
 }
@@ -62,7 +65,9 @@ img.me {
     border-radius: 100px;
 }
 
+/* -------------------------------------------------- */
 /* about related */
+
 .about-div {
     text-align: justify;
 }
@@ -71,6 +76,7 @@ img.me {
     color: white;
 }
 
+/* -------------------------------------------------- */
 /* career related */
 
 .career-top {
@@ -151,7 +157,7 @@ img.me {
     font-size: 80%;
 }
 
-*/
+/* -------------------------------------------------- */
 /* contact related */
 
 .icon-container {
