@@ -41,7 +41,7 @@ h2 {
     }
 
     /* leave more space next to the icons at the bottom */
-    .contact-link>a {
+    .more-link>a {
         margin-left: 15px;
     }
 
@@ -152,16 +152,16 @@ img.me {
 }
 
 */
-/* contact related */
+/* more-info related */
 
 .icon-container {
     width: 20px;
 }
 
-.contact-link {
+.more-link {
     font-size: 120%;
 }
 
-.contact-link>a {
+.more-link>a {
     margin-left: 5px;
 }
