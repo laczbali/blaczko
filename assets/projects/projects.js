@@ -4,7 +4,7 @@ document.addEventListener("scroll", scrollHandler);
 function scrollHandler(e) {
     var scrollTop = e.target.scrollTop ?? e.target.scrollingElement.scrollTop;
     if (scrollTop > 0) {
-        document.getElementById("to-the-top").style.display = "block";
+        document.getElementById("to-the-top").style.display = "flex";
     } else {
         document.getElementById("to-the-top").style.display = "none";
     }
