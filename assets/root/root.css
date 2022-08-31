@@ -1,4 +1,7 @@
-a, a:visited, a:hover, a:active {
+a,
+a:visited,
+a:hover,
+a:active {
     color: #0099FF;
 }
 
@@ -10,14 +13,14 @@ a, a:visited, a:hover, a:active {
     margin-bottom: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: white;
 }
 
 /* touch-screen only rules */
 
-@media
-(min-resolution: 192dpi),
+@media (min-resolution: 192dpi),
 (max-width: 900px) {
 
     /* larger left margin, add right margin */
@@ -28,8 +31,8 @@ h1, h2 {
 
     /* can take whole width, larger left margin */
     .content {
-       max-width: unset;
-       margin-left: 50px;
+        max-width: unset;
+        margin-left: 50px;
     }
 
     /* image should be absoulte center, instead of text-block-relative */
@@ -70,27 +73,74 @@ img.me {
 
 /* career related */
 
+.career-place {
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.career-role {
+    position: relative;
+    margin-bottom: 1.2rem;
+}
+
+.career-border {
+    position: absolute;
+    height: 100%;
+}
+
+.career-border-top,
+.career-border-mid,
+.career-border-bottom {
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: rgb(201 201 201 / 33%);
+    font-size: 66%;
+}
+
+.career-border-top,
+.career-border-bottom {
+    background-color: rgb(201 201 201 / 33%);
+    width: 0.125rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.career-border-top {
+    margin-top: -0.5rem;
+    height: calc(33% + 0.5rem);
+}
+
+.career-border-bottom {
+    margin-bottom: -0.5rem;
+    height: calc(33% + 0.5rem);
+}
+
+.career-top .career-role:last-of-type .career-border-bottom {
+    display: none;
+}
+
+.career-title,
+.career-time,
+.career-brief {
+    margin-left: 2rem;
+}
+
 .career-title {
     font-weight: bold;
     color: white;
 }
 
-.career-place {
-    font-style: italic;
-    font-size: 80%;
-}
-
-.career-place-inline {
-    font-weight: normal;
-    color: rgb(201,201,201);
-}
-
-.career-role {
+.career-brief {
     text-align: justify;
-    font-style: italic;
     font-size: 80%;
 }
 
+*/
 /* contact related */
 
 .icon-container {
