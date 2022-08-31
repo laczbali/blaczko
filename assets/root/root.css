@@ -73,11 +73,22 @@ img.me {
 
 /* career related */
 
+.career-top {
+    position: relative;
+}
+
 .career-place {
     margin-bottom: 1.2rem;
     font-weight: bold;
     color: white;
     font-size: 1.2rem;
+}
+
+.career-link {
+    font-size: 75%;
+    position: absolute;
+    left: -20px;
+    top: 6px;
 }
 
 .career-role {
