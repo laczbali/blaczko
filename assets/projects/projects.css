@@ -20,6 +20,8 @@ html {
 /* side menu */
 
 .menu {
+    display: flex;
+    flex-direction: column;
     color: white;
     margin-right: 20px;
     width: calc(30% - 20px);
@@ -44,9 +46,10 @@ hr {
     border-color: rgb(101, 101, 101);
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
-.bottom-hr {
+hr:last-of-type {
     display: none;
     margin-bottom: 40px;
 }
@@ -106,16 +109,16 @@ a:hover {
 
     #to-the-top {
         position: fixed;
-        bottom: 20px;
+        bottom: 1rem;
         right: unset;
         left: calc(calc(100% - 45em) / 2);
 
         background: white;
-        width: 100px;
-        height: 30px;
-        line-height: 30px;
+        width: 8rem;
+        height: 3rem;
+        line-height: 3rem;
         text-align: center;
-        border-radius: 30px;
+        border-radius: 3rem;
     }
 
     #to-the-top>a {
@@ -133,7 +136,7 @@ a:hover {
         text-align: start;
     }
 
-    .bottom-hr {
+    hr:last-of-type {
         display: block;
     }
 
