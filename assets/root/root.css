@@ -131,7 +131,7 @@ img.me {
     height: calc(33% + 0.5rem);
 }
 
-.career-top .career-role:last-of-type .career-border-bottom {
+.career-top:last-of-type .career-role:last-of-type .career-border-bottom {
     display: none;
 }
 
