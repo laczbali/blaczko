@@ -90,7 +90,11 @@ img.me {
     font-size: 1.2rem;
 }
 
-.career-link {
+.career-link div {
+    display: inline-block;
+}
+
+.career-icon {
     font-size: 75%;
     position: absolute;
     left: -20px;
