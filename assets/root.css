@@ -1,0 +1,140 @@
+/* -------------------------------------------------- */
+/* basic appearance */
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(37, 37, 38);
+    color: rgb(201, 201, 201);
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: #0099FF;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+/* -------------------------------------------------- */
+/* custom scrollbar */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(51, 51, 51);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(101, 101, 101);;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+/* -------------------------------------------------- */
+/* basic structure */
+
+.container {
+    display: flex;
+}
+
+.main {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    max-width: 45em;
+}
+
+.content {
+    margin-left: 1.2rem;
+}
+
+.content>div {
+    margin-bottom: 1.2rem;
+}
+
+/* -------------------------------------------------- */
+/* image related */
+
+.img-me-container {
+    text-align: center;
+}
+
+img.me {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+/* -------------------------------------------------- */
+/* about related */
+
+.about-div {
+    text-align: justify;
+}
+
+.about-div b {
+    color: white;
+}
+
+/* -------------------------------------------------- */
+/* career related */
+
+.career-top {
+    position: relative;
+}
+
+.career-place {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1.2rem;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.career-place:hover {
+    color: #0099FF;
+}
+
+.career-place-icon {
+    color: #0099FF;
+}
+
+.career-role {
+    position: relative;
+    margin-bottom: 1.2rem;
+    margin-left: 1.2rem;
+}
+
+.career-title {
+    font-weight: bold;
+    color: white;
+}
+
+.career-brief {
+    text-align: justify;
+    font-size: 80%;
+    margin-top: 1.2rem;
+}
+
+/* -------------------------------------------------- */
+/* contact related */
+
+.icon-container {
+    width: 20px;
+}
+
+.contact-link {
+    font-size: 120%;
+}
+
+.contact-link>a {
+    margin-left: 5px;
+}

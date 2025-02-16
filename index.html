@@ -8,8 +8,7 @@
 	<meta property="og:url" content="https://blaczko.com" />
 
 	<title>Balazs Laczko</title>
-	<link rel="stylesheet" href="assets/global.css">
-	<link rel="stylesheet" href="assets/root/root.css">
+	<link rel="stylesheet" href="assets/root.css">
 	<script src="https://kit.fontawesome.com/6ad4c4d6e7.js" crossorigin="anonymous"></script>
 </head>
 
@@ -20,7 +19,7 @@
 
 			<!-- ---------------------------------------------------------------------- -->
 			<div class="content img-me-container">
-				<img src="assets/root/me_23_10_02.jpg" class="me">
+				<img src="assets/me_23_10_02.jpg" class="me">
 			</div>
 
 			<h1>
@@ -63,14 +62,11 @@
 			<div class="content content-work">
 
 				<div class="career-top">
-					<a class="career-link" href="https://frankly.dk/" target="_blank">
-						<div class="career-icon">
-							<i class="fa-solid fa-link"></i>
+					<div class="career-place" onclick="openLink('https://frankly.dk/')">
+						<div class="career-place-name">
+							<i class="fa-solid fa-link career-place-icon"></i> Frankly
 						</div>
-						<div class="career-place">
-							Frankly
-						</div>
-					</a>
+					</div>
 
 					<div class="career-role">
 						<div class="career-title">Backend Developer</div>
@@ -82,16 +78,13 @@
 						</div>
 					</div>
 				</div>
-				<!-- NI -->
+
 				<div class="career-top">
-					<a class="career-link" href="https://www.ni.com/" target="_blank">
-						<div class="career-icon">
-							<i class="fa-solid fa-link"></i>
+					<div class="career-place" onclick="openLink('https://www.ni.com/')">
+						<div class="career-place-name">
+							<i class="fa-solid fa-link career-place-icon"></i> NI Hungary
 						</div>
-						<div class="career-place">
-							NI Hungary
-						</div>
-					</a>
+					</div>
 
 					<div class="career-role">
 						<div class="career-title">Staff Test Engineer</div>
@@ -134,14 +127,11 @@
 
 			<div class="content content-work">
 				<div class="career-top">
-					<a class="career-link" href="https://unideb.hu/en" target="_blank">
-						<div class="career-icon">
-							<i class="fa-solid fa-link"></i>
+					<div class="career-place" onclick="openLink('https://unideb.hu/en')">
+						<div class="career-place-name">
+							<i class="fa-solid fa-link career-place-icon"></i> University of Debrecen
 						</div>
-						<div class="career-place">
-							University of Debrecen
-						</div>
-					</a>
+					</div>
 
 					<div class="career-role">
 						<div class="career-title">MSc Computer Engineering</div>
@@ -174,6 +164,10 @@
 		</div>
 	</div>
 
+	<script>
+		function openLink(link) {
+			window.open(link, '_blank');
+		}
+	</script>
 </body>
-
 </html>
