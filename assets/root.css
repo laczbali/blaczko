@@ -91,15 +91,17 @@ img.me {
     position: relative;
 }
 
-.career-place {
+a.career-place,
+a.career-place:visited {
+    display: block;
     font-weight: bold;
     color: white;
+    text-decoration: none;
     margin-bottom: 1.2rem;
     margin-left: -20px;
-    cursor: pointer;
 }
 
-.career-place:hover {
+a.career-place:hover {
     color: #0099FF;
 }
 

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Homepage for Balazs Laczko" />
 	<meta property="og:description" content="A brief overview of my career, skills and interests." />
 	<meta property="og:url" content="https://blaczko.com" />
@@ -19,7 +20,7 @@
 
 			<!-- ---------------------------------------------------------------------- -->
 			<div class="content img-me-container">
-				<img src="assets/me.jpg" class="me">
+				<img src="assets/me.jpg" class="me" alt="Balazs Laczko">
 			</div>
 
 			<h1>
@@ -68,11 +69,11 @@
 			<div class="content content-work">
 
 				<div class="career-top">
-					<div class="career-place" onclick="openLink('https://frankly.dk/')">
+					<a class="career-place" href="https://frankly.dk/" target="_blank">
 						<div class="career-place-name">
 							<span class="career-place-icon">#</span> Frankly
 						</div>
-					</div>
+					</a>
 
 					<div class="career-role">
 						<div class="career-title">Lead Backend Developer</div>
@@ -115,11 +116,11 @@
 				<!-- ---------------------------------- -->
 
 				<div class="career-top">
-					<div class="career-place" onclick="openLink('https://www.ni.com/')">
+					<a class="career-place" href="https://www.ni.com/" target="_blank">
 						<div class="career-place-name">
 							<span class="career-place-icon">#</span> NI Hungary
 						</div>
-					</div>
+					</a>
 
 					<div class="career-role">
 						<div class="career-title">Staff Test Engineer</div>
@@ -167,11 +168,11 @@
 
 			<div class="content content-work">
 				<div class="career-top">
-					<div class="career-place" onclick="openLink('https://unideb.hu/en')">
+					<a class="career-place" href="https://unideb.hu/en" target="_blank">
 						<div class="career-place-name">
 							<span class="career-place-icon">#</span> University of Debrecen
 						</div>
-					</div>
+					</a>
 
 					<div class="career-role">
 						<div class="career-title">MSc Computer Engineering</div>
@@ -203,12 +204,6 @@
 
 		</div>
 	</div>
-
-	<script>
-		function openLink(link) {
-			window.open(link, '_blank');
-		}
-	</script>
 </body>
 
 </html>
